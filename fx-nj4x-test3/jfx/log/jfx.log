@@ -1,0 +1,75 @@
+07 13:42:32 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 13:42:32 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 13:42:33 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:42:42 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 13:42:42 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:42:52 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 13:42:53 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:43:04 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@87A56B116B4EBE8235322A061555C40112.8.5 connected.
+07 13:43:04 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:43:14 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@AE1AC9445A03396925373F1A3A2959AA12.8.5 connected.
+07 13:43:53 |     NJ4X-2 | INFO  | MT4TerminalConnection: Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR [i/o=245/57] disconnected (java.net.SocketException: Connection reset)
+07 13:43:53 |     NJ4X-2 | ERROR | Coordination error (NJ4X-2)
+com.jfx.strategy.MT4DisconnectException: MT4TerminalConnection: Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR [i/o=245/57] disconnected (java.net.SocketException: Connection reset)
+	at com.jfx.strategy.MT4TerminalConnection.sendCommandGetResult(MT4TerminalConnection.java:427)
+	at com.jfx.MT4.newPosition(MT4.java:462)
+	at com.jfx.strategy.Strategy$1.coordinate(Strategy.java:781)
+	at com.jfx.strategy.BasicStrategyRunner.run(BasicStrategyRunner.java:429)
+	at com.jfx.strategy.MT4TerminalConnection.run(MT4TerminalConnection.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+07 13:43:53 |     NJ4X-2 | INFO  | MT4TerminalConnection: Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR [i/o=245/57] disconnected (java.net.SocketException: Connection reset by peer: socket write error)
+07 13:44:03 |     NJ4X-2 | INFO  | MT4TerminalConnection: Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF1 [i/o=1592/317] disconnected (java.net.SocketException: Connection reset by peer: socket write error)
+07 13:44:03 |     NJ4X-2 | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:47:55 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 13:47:55 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 13:47:56 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:47:56 | NJ4X-CRON-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 13:47:56 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:47:58 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 13:47:58 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:48:00 | NJ4X-CRON-10 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@87A56B116B4EBE8235322A061555C40112.8.5 connected.
+07 13:49:50 |     NJ4X-5 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 13:49:50 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 13:49:50 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:49:51 | NJ4X-CRON-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 13:49:51 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:49:53 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 13:49:53 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:59:05 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 13:59:05 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 13:59:05 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:59:06 | NJ4X-CRON-4 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 13:59:06 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 13:59:08 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 13:59:08 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:27:01 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 15:27:02 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 15:27:02 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:27:02 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 15:27:03 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:27:33 |     NJ4X-4 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 15:27:33 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 15:27:33 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:27:34 | NJ4X-CRON-4 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 15:27:34 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:32 |     NJ4X-4 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 15:28:32 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 15:28:32 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:33 | NJ4X-CRON-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 15:28:33 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:35 | NJ4X-CRON-6 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 15:28:35 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:50 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.5 connected.
+07 15:28:50 |     NJ4X-3 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@634159C82DCB59395B5305FA26B3E0BF12.8.5 connected.
+07 15:28:50 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:51 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@DB39CEDC30314563700419AD56A9C9A612.8.5 connected.
+07 15:28:51 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:53 | NJ4X-CRON-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.5 connected.
+07 15:28:53 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:54 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@87A56B116B4EBE8235322A061555C40112.8.5 connected.
+07 15:28:54 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+07 15:28:55 | NJ4X-CRON-8 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.5@AE1AC9445A03396925373F1A3A2959AA12.8.5 connected.

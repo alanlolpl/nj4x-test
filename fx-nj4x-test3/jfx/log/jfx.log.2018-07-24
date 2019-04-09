@@ -1,0 +1,23 @@
+24 23:53:06 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.1 connected.
+24 23:53:06 |     NJ4X-2 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@634159C82DCB59395B5305FA26B3E0BF12.8.1 connected.
+24 23:53:09 |       main | WARN  | Inconsistent API used - NJ4X API v.2.7.8, TS v.2.8.1, DLL v.2.8.1, MQL v.2.8.1
+24 23:53:22 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+24 23:53:33 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@DB39CEDC30314563700419AD56A9C9A612.8.1 connected.
+24 23:53:33 |       main | WARN  | Inconsistent API used - NJ4X API v.2.7.8, TS v.2.8.1, DLL v.2.8.1, MQL v.2.8.1
+24 23:54:40 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@634159C82DCB59395B5305FA26B3E0BF12.8.1 connected.
+24 23:54:40 |     NJ4X-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@634159C82DCB59395B5305FA26B3E0BF|SPCH_P_LSNR2.8.1 connected.
+24 23:54:46 | NJ4X-CRON-6 | WARN  | 
+*************************************************************************
+Trial period for your BOXID (3588270824) has ended.
+In order to continue using NJ4X API you need to buy NJ4X Personal license
+at http://www.nj4x.com/pricing, register BOXID and get activation key
+-------------------------------------------------------------------------
+   API functionality is limited: all methods will respond in random delay
+-------------------------------------------------------------------------
+*************************************************************************
+
+24 23:54:59 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+24 23:55:00 | NJ4X-CRON-1 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@DB39CEDC30314563700419AD56A9C9A612.8.1 connected.
+24 23:55:05 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo
+24 23:55:18 |     NJ4X-4 | INFO  | Client EURUSD.em.240.800035556(Emperor Financial International Limited) MQLv2.8.1@37DD9E7ACCFBA3BAC53DC1C000B154F512.8.1 connected.
+24 23:55:25 |       main | INFO  | Connecting to     800035556/EmperorFinancial-Demo

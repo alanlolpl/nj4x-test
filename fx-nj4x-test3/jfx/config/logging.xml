@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "dtd/log4j.dtd">
+
+<log4j:configuration debug="false" xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="FileLogger" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="./jfx/log/jfx.log"/>
+        <param name="Append" value="true"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd HH:mm:ss} | %10.15t | %-5p | %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="SystemOut" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd HH:mm:ss} | %10.15t | %-5p | %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="Main" class="org.apache.log4j.AsyncAppender">
+        <param name="LocationInfo" value="false"/>
+        <param name="BufferSize" value="1000"/>
+
+        <appender-ref ref="SystemOut" />
+        <appender-ref ref="FileLogger" />
+    </appender>
+
+
+    <category name="com.jfx">
+        <priority value="INFO" />
+    </category>
+
+    <root>
+        <priority value="INFO"/>
+        <appender-ref ref="Main"/>
+    </root>
+
+</log4j:configuration>
